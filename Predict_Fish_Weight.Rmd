@@ -28,7 +28,8 @@ Perch <- select(Perch, -Species)
 
 
 ```{r}
-
+PerchModel1<- lm(Weight~.,Perch)
+summary(PerchModel1)
 ```
 
 

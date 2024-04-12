@@ -118,7 +118,7 @@ as.data.frame(summary.out$outmat)
 library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
-Interpreting our results we see that the best two element models is using Length 1 and Length 3. The best overall model is the 5 element model using adjusted R squared R squared. 
+Interpreting our results we see that the best two element models is using Length 1 and Length 3. The best overall model is the 5 element model using adjusted R squared. 
 
 
 ### Best Models
@@ -147,8 +147,9 @@ as.data.frame(summary.out$outmat)
 library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="topright",main="Adjusted R^2")
 ```
+Interpreting our results we see that the best two element models is using Length 3 and width. The best overall model is the 2 element model using Length 3 and width using adjusted R squared.
 
-
-### Best Two regressor model
 
 ## Final Summary Statements
+
+

@@ -45,6 +45,13 @@ summary(PerchModel3)
 ```
 
 
+
+```{r}
+PerchModel4<- lm(Weight~. -Length1 -Length2 -Length3,Perch)
+summary(PerchModel4)
+```
+
+
 ## Perch
 
 ### Best Models

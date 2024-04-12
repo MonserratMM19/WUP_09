@@ -51,6 +51,10 @@ PerchModel4<- lm(Weight~. -Length1 -Length2 -Length3,Perch)
 summary(PerchModel4)
 ```
 
+```{r}
+PerchModel5<- lm(Weight~. -Length1 -Length2 -Length3 -Width,Perch)
+summary(PerchModel5)
+```
 
 ## Perch
 

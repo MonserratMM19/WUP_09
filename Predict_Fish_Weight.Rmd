@@ -18,6 +18,7 @@ require(tigerstats)
 require(tidyverse)
 require(leaps)
 require(car)
+Fish <- read.csv(file = "Fish.csv")
 ```
 
 
@@ -91,16 +92,8 @@ summary.out$which[2,]
 best.model <- lm(Weight~Height+Width,data=Perch)
 summary(best.model)
 ```
-```{r}
-anova(Perchfullup,best.model)
-```
 
 
-## Perch
-
-### Best Models
-
-### Best Two regressor model
 
 
 ## Pike

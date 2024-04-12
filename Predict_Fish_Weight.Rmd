@@ -116,9 +116,9 @@ method = "exhaustive")
 summary.out <- summary(regsubsets.out)
 as.data.frame(summary.out$outmat)
 library(car)
-subsets(regsubsets.out,statistic="adjr2",legend="bottom",main="Adjusted R^2")
+subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
-
+Interpreting our results we see that the best two element models is using Length 1 and Length 3. The best overall model is the 5 element model using adjusted R squared R squared. 
 
 
 ### Best Models

@@ -33,6 +33,10 @@ summary(PerchModel1)
 ```
 
 
+```{r}
+PerchModel2<- lm(Weight~. -Length1,Perch)
+summary(PerchModel2)
+```
 
 
 ## Perch

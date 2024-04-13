@@ -152,4 +152,4 @@ Interpreting our results we see that the best two element models is using Length
 
 ## Final Summary Statements
 
-
+I learned hoe to use leaps and learned how to start codes from scratch removing statements until I got the best adjusted R squared model. 
